@@ -1,5 +1,5 @@
-let computerMove = `kamień`;
-printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
+const computerMove = `kamień`;
+const playerMove = `papier`;
 
-let playerMove = `papier`;
+printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
 printMessage('Zagrałem ' + playerMove + '! Jeśli Twój ruch to nożyce, to wygrywasz!');
